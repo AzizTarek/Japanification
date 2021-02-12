@@ -1,0 +1,116 @@
+
+
+ .page-header {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin:5px;
+  padding:20px 0;
+}
+
+.page-header h1 {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+
+  .page-header p {
+    font-size: 20px;
+   padding: 20px 200px 0 ;
+   line-height: 40px;
+  }
+
+.main-content{
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  line-height: 40px;
+  padding-top : 50px;
+  padding-bottom:50px;
+}
+
+.tradition {
+  padding-bottom: 30px;
+}
+
+.tradition img {
+  width:40%;
+}
+
+.main-content h3 {
+ font-size: 25px;
+ margin:0 10px;
+ padding-bottom: 35px;
+ line-height: 30px;
+}
+
+.main-content figcaption, .main-content p{
+  font-size: 20px;
+  font-family: 'Puritan', sans-serif;
+  margin: 0 120px;
+  padding: 0 200px 40px;
+}
+
+/* (tablet)Responsiveness- text and image size change*/
+@media only screen and (max-width: 1000px){
+ .page-header h1 {
+     font-size: 20px;
+     padding: 30px 0;
+   }
+
+   .page-header P {
+    padding: 10px 5px 0 ;
+    line-height: 25px;
+    font-size: 15px;
+   }
+
+ .main-content{
+   line-height: 25px;
+ }
+
+ .tradition img {
+   width:60%;
+ }
+
+ .main-content h3 {
+  font-size: 20px;
+  line-height: 40px;
+ }
+
+ .main-content figcaption, .main-content p{
+   font-size: 15px;
+    margin: 0 10px;
+   padding: 0 10px 10px;
+ }
+}
+
+/* (mobile)Responsiveness- text sizes change and image is set to 100% */
+ @media only screen and (max-width: 449px) {
+   .page-header h1 {
+       font-size: 20px;
+       padding: 10px 0;
+     }
+
+     .page-header p {
+      padding: 10px 5px 0 ;
+      line-height: 25px;
+      font-size: 15px;
+     }
+
+   .main-content{
+     line-height: 20px;
+   }
+
+   .tradition img {
+     width:100%;
+   }
+
+   .main-content h3 {
+    font-size: 25px;
+    line-height: 40px;
+   }
+
+   .main-content figcaption, .main-content p{
+     font-size: 15px;
+      margin: 0 10px;
+     padding: 0 10px 10px;
+   }
+
+ }

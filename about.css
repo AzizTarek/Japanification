@@ -1,0 +1,76 @@
+
+  .aboutme-header h1{
+    font-family: "Bebas Neue";
+    font-size:60px;
+    text-align: center;
+    padding:10px
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .container-fluid h3 {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .container-fluid p{
+    font-size:20px;
+    padding: 0 150px;
+  }
+
+  .margin {
+    margin-bottom: 40px;
+  }
+
+/* background styling*/
+
+  .bg-1 {
+    background-color: #809fff;
+    color: #E8FFF0;
+  }
+
+  .bg-2 {
+    background-color: #474e5d;
+    color:#FFFDE8;
+  }
+  .bg-3 {
+    background-color:inherit; /* inherits body's background color */
+    color: #212629;
+  }
+
+/* container positioning*/
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  /* image*/
+
+  div img{
+    display:inline;
+    width:20%;
+    border-radius: 10%;
+    padding-bottom: 10px;
+  }
+
+  /* Responsiveness - when screen width is 1000px or less font size will decrease and image width will decrease*/
+
+  @media screen and (max-width: 1000px) {
+
+    .container-fluid h3{
+      font-size: 25px;
+    }
+
+    .container-fluid p{
+      font-size:15px;
+      padding: 0 40px;
+    }
+
+
+    div img{
+      width:30vh
+    }
+  }
